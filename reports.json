@@ -1,0 +1,30 @@
+[{
+	"Reports": [{
+		"ReportName": "OVERVIEW",
+		"Redirectlink":"#/overview",
+		"Heading": "Practice Overview",
+		"FacilityName": "B F PPa",
+		"Date": "May 13, 2016"
+	}, {
+		"ReportName": "PRACTICE DETAIL CARRIER",
+		"Redirectlink":"#/PracticeDetailCarrier",
+		"SelectPeriod": "",
+		"AllCarriers": ""
+	}, {
+		"ReportName": "SERVICE LEVEL ANALYSIS",
+		"Redirectlink":"#/ServiceLevelAnalysis",
+		"SelectPeriod": "",
+		"AllCodes": [
+			"A",
+			"B2",
+			"C",
+			"D",
+			"M",
+			"T"
+		]
+	}, {
+		"ReportName": "AR AGING BY DATE OF SERVICE",
+		"Redirectlink":"#/arAging",
+		"SelectDate": ""
+	}]
+}]
