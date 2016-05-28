@@ -1,5 +1,8 @@
 <IfModule mod_headers.c>
    <Directory /var/www/app/json>
+   # This file is intended to make Apache blow up.  This will help
+# determine if .htaccess is enabled or not!
+AHHHHHHH
       <FilesMatch "\.(json|jsonp)$">
          Header set Access-Control-Allow-Origin *
          Header set Access-Control-Allow-Credentials true
